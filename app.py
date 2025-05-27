@@ -57,19 +57,20 @@ def aplicar_css():
     tema = st.session_state.get("theme", "light")
     
     if tema == "dark":
-        background_color = "#360568"
-        text_color = "#EBEBD3"
-        secondary_bg = "#5B2A86"
-        accent_color = "#F4D35E"
-        button_color = "#177E89"
-        card_bg = "#5B2A86"
+        background_color = "#0E1117"
+        text_color = "#FAFAFA"
+        secondary_bg = "#262730"
+        accent_color = "#1F77B4"
+        button_color = "#1F77B4"
+        card_bg = "#1E1E1E"
     else:
-        background_color = "#EBEBD3"
-        text_color = "#360568"
-        secondary_bg = "#FFFFFF"
-        accent_color = "#177E89"
-        button_color = "#177E89"
+        background_color = "#FFFFFF"
+        text_color = "#31333F"
+        secondary_bg = "#F0F2F6"
+        accent_color = "#0A84FF"
+        button_color = "#0A84FF"
         card_bg = "#FFFFFF"
+
     
     css = f"""
     <style>
