@@ -863,8 +863,8 @@ elif st.session_state.pagina == "planes":
         st.markdown("""
         <div class="container">
             <h3>Plan Estándar</h3>
-            <h2>$1.500 /mes</h2>
-            <p><small>O $15.000 /año (ahorra 2 meses)</small></p>
+            <h2>$15.000 /mes</h2>
+            <p><small>O $150.000 /año (ahorra 2 meses)</small></p>
             <ul>
                 <li>Acceso a todos los cursos</li>
                 <li>Sin publicidad</li>
@@ -879,8 +879,8 @@ elif st.session_state.pagina == "planes":
         st.markdown("""
         <div class="container">
             <h3>Plan Premium</h3>
-            <h2>$2.800 /mes</h2>
-            <p><small>O $28.000 /año (ahorra 2 meses)</small></p>
+            <h2>$28.000 /mes</h2>
+            <p><small>O $280.000 /año (ahorra 2 meses)</small></p>
             <ul>
                 <li>Todo lo del plan Estándar</li>
                 <li>2 tutorías personalizadas al mes</li>
